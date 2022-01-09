@@ -1,0 +1,125 @@
+
+
+
+
+.connecting{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 700; 
+  color: rgb(35,46,78);
+  text-shadow: 0 0 5px gold, 0 0 7px #0000FF;
+}
+.App {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 700px;
+}
+.item-add-address{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.add-item{
+  background-color: aqua;
+  text-align: center;
+  width: 60em;
+  left: 5em;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 5px;
+  height: 90px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add-item input {
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin-right: 14px;
+}
+.add-item button {
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 35px;
+  text-align: center;
+  float: right;
+  margin-right: 200px;
+  cursor: pointer;
+}
+.item-owner{
+  display: flex;
+  background-color: aqua;
+  width: 60em;
+  left: 5em;
+  padding-top: 13px;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ether-address{
+  float: left;
+  height: 40px;
+  display: inline;
+  border-radius: 50px;
+  margin-bottom: 90px;
+}
+.ether-address h2{
+  float: left;
+  margin-top: -7px;
+  margin-left: 40px;
+  padding-right: 9px;
+}
+.ether-address button {
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  padding-right: 5px;
+  margin-left: 15px;
+  background-color:rgb(65, 225, 132);
+  cursor: pointer;
+}
+.count{
+  margin-top: 16px;
+  text-align: center;
+}
+.content-table {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(29, 199, 199);
+  width: 60em;
+  left: 5em;
+  text-align: center;
+  padding-top: 8px;
+  margin: 0 auto;
+  height: 40px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content-table th{
+  padding-left: 5em;
+}
+.render{
+  display: flex;
+  background-color: rgb(224, 240, 240);
+  width: 60em;
+  left: 5em;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 19px;
+  height: 40px;
+  margin-top: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.render td{
+  padding-left: 5.7em;
+}
+.render button{
+  margin-left: 10px;
+  cursor: pointer;
+}
